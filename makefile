@@ -1,7 +1,8 @@
 all:generate
 install:
+	sh init.sh
+	cp wall.sh ~/.scripts/
 	mkdir out
-	cp wall.sh ./scripts/
 	make generate
 
 generate:
